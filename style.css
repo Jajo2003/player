@@ -90,3 +90,38 @@ body{
 .rotation{
   animation: rotate 8s linear infinite;
 }
+.Songs{
+  display: flex;
+  flex-direction: column;
+}
+.song-cont{
+  width: 400px;
+  background-color:rgb(8, 39, 59);
+  height: 60px;
+  position: relative;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin-bottom:20px;
+}
+#play-pause2{
+  position: absolute;
+  right: 20px;
+  top:20px;
+  border:none;
+  padding: 10px 12px 10px 12px;
+  background-color:rgb(192, 32, 32) ;
+  border-radius: 20px;
+  cursor: pointer; 
+  transition: 0.3s;
+}
+#play-pause2:hover{
+  opacity: 0.6;
+}
+.songname{
+  font-size: 18px;
+}
+.artistname{
+  font-size: 15px;
+  margin-top: 10px;
+}

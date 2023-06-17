@@ -9,14 +9,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-  <script src="app.js"></script>
+ 
 </head>
 <body>
   <div class="Main">
     <div class="Player">
       <div class="top">
           <div id="music-cont">
-            <img id="music" src="Pics/2pac.jpg">
+            <img>
           </div>
           <div id="Description">
             <div class="song-name">aaa</div>
@@ -34,23 +34,56 @@
       </div>
       <div class="bottom">
         <div class="icons">
-          <i class="fa-solid fa-backward fa-2xl Play"></i>
-          <i class="fa-solid fa-play fa-2xl " id="play-pause"></i>
-          <i class="fa-solid fa-forward fa-2xl Play"></i>
+          <i class="fa-solid fa-backward fa-2xl Play"id="backward" onclick="
+          changebackward();
+            "></i>
+          <i class="fa-solid fa-play fa-2xl " id="play-pause" ></i>
+          <i class="fa-solid fa-forward fa-2xl Play" id="forward" onclick="
+          changeforward();
+          "></i>
         </div>
       </div>
     </div>
     <div class="Songs">
       <div class="song-cont">
-          <div class="songname"></div>
-          <div class="artistname"></div>
-
+          <div class="songname">Changes</div>
+          <div class="artistname">2Pac</div>
+          <i class="fa-solid fa-play" id="play-pause2" onclick="
+          aaa(0);
+          "></i>
       </div>
-      
+      <div class="song-cont">
+        <div class="songname">Praise The Lord</div>
+        <div class="artistname">Asap Rocky</div>
+        <i class="fa-solid fa-play" id="play-pause2"  onclick="
+       aaa(1);
+        "></i>
+    </div>
+    <div class="song-cont">
+      <div class="songname">It was a good day</div>
+      <div class="artistname">Ice Cube</div>
+      <i class="fa-solid fa-play" id="play-pause2"  onclick="
+      aaa(2);
+      "></i>
+  </div>
+  <div class="song-cont">
+    <div class="songname">Crucified</div>
+    <div class="artistname">Pucci</div>
+    <i class="fa-solid fa-play" id="play-pause2"  onclick="
+    aaa(3);
+    "></i>
+</div>
+<div class="song-cont">
+  <div class="songname">U got that</div>
+  <div class="artistname">Halogen</div>
+  <i class="fa-solid fa-play" id="play-pause2"  onclick="
+ aaa(4);
+  "></i>
+</div>
     </div>
 
   </div>
 
-
+  <script src="app.js"></script>
 </body>
 </html>
