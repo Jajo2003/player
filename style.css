@@ -1,10 +1,11 @@
 body{
   background-color: rgb(20, 51, 71);
-  font-family:  Arial, Helvetica, sans-serif;
+  font-family:Roboto,arial,sans-serif;
   height: 900px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 .Main{
   display: flex;
@@ -19,4 +20,73 @@ body{
   border-radius: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#range{
+  width: 300px;
+}
+#Description{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#Description div{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.song-name{
+  font-size: 20px;
+}
+.artist-name{
+  font-size: 15px;
+}
+.icons{
+  margin-top:30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 270px;
+}
+.Play{
+  cursor: pointer;
+  padding: 27px 12px 27px 12px;
+  background-color: rgb(20, 51, 71);
+  border-radius: 30px;
+}
+#play-pause{
+  cursor: pointer;
+  padding: 27px 15px 27px 15px;
+  background-color: rgb(192, 32, 32);
+  border-radius: 30px;
+}
+.Play:hover,#play-pause:hover{
+  opacity: 0.5;
+}
+.Play,#play-pause{
+  transition: 0.25s;
+}
+#music{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@keyframes rotate{
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+.rotation{
+  animation: rotate 8s linear infinite;
 }
