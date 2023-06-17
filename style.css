@@ -1,0 +1,20 @@
+body{
+  background-color: rgb(20, 51, 71);
+  font-family:  Arial, Helvetica, sans-serif;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Main{
+  display: flex;
+  align-items: center;
+  gap:100px;
+}
+.Player,.Songs{
+  width: 450px;
+  height: 600px;
+  background-color: rgb(40, 93, 129);
+  border: none;
+  border-radius: 20px;
+}
