@@ -119,5 +119,6 @@ function playmusic(value){
        pause_play.classList.remove('fa-pause');
     }
     return value;
+    
 }
 
