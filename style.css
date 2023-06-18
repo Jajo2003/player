@@ -67,11 +67,11 @@ body{
   transition: 0.25s;
 }
 #music{
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 .top{
   display: flex;
@@ -104,7 +104,7 @@ body{
   padding-top: 15px;
   margin-bottom:20px;
 }
-#play-pause2{
+#play-pause2,#play-pause0,#play-pause1,#play-pause3,#play-pause4{
   position: absolute;
   right: 20px;
   top:20px;
@@ -115,7 +115,7 @@ body{
   cursor: pointer; 
   transition: 0.3s;
 }
-#play-pause2:hover{
+#play-pause2:hover,#play-pause0:hover,#play-pause1:hover,#play-pause3:hover,#play-pause4:hover{
   opacity: 0.6;
 }
 .songname{
@@ -124,4 +124,14 @@ body{
 .artistname{
   font-size: 15px;
   margin-top: 10px;
+}
+.song-cont2{
+  width: 400px;
+  background-color:rgb(10, 21, 29);
+  height: 60px;
+  position: relative;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin-bottom:20px;
 }
